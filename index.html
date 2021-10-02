@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
   <title>Fasadhouse</title>
 </head>
@@ -49,12 +49,7 @@
         </div>
         <div class="center-logo">
           <img src="images/logo-icon.svg" alt="Fasadhouse icon logo" class="logo-icon">
-          <div class="logo-column">
-            <img src="images/logo-text.svg" alt="Fasadhouse text logo" class="logo-name">
-            <p class="logo-subname">Ми прикрасимо Вашу оселю</p>
-          </div>
         </div>
-
         <div class="account-cart">
           <a href="#" class="account">
             <img src="images/account.svg" alt="account icon" class="account-icon">
@@ -65,22 +60,26 @@
             <p class="cart-name">(2) 11 588 грн</p>
           </a>
         </div>
+
       </div>
+
+
+    </div>
 
     </div>
 
     <div class="header-bottom">
       <ul class="services-list container">
-        <li class="services-item"><a href="#" class="services-link">Фасадний декор</a></li>
-        <li class="services-item"><a href="#" class="services-link">Фрезерна порізк</a></li>
-        <li class="services-item"><a href="#" class="services-link">Готові обрамлення</a></li>
-        <li class="services-item"><a href="#" class="services-link">3D дизайн</a></li>
-        <li class="services-item"><a href="#" class="services-link">LED профілі</a></li>
-        <li class="services-item"><a href="#" class="services-link">Порізка пінопласту</a></li>
-        <li class="services-item"><a href="#" class="services-link">Регіони</a></li>
-        <li class="services-item"><a href="#" class="services-link">Технологія</a></li>
-        <li class="services-item"><a href="#" class="services-link"><img src="/images/find.svg" alt="find glass"
-              class="find-glass"></a></li>
+        <li class="services-list-item"><a href="#" class="services-list-link">Фасадний декор</a></li>
+        <li class="services-list-item"><a href="#" class="services-list-link">Фрезерна порізк</a></li>
+        <li class="services-list-item"><a href="#" class="services-list-link">Готові обрамлення</a></li>
+        <li class="services-list-item"><a href="#" class="services-list-link">3D дизайн</a></li>
+        <li class="services-list-item"><a href="#" class="services-list-link">LED профілі</a></li>
+        <li class="services-list-item"><a href="#" class="services-list-link">Порізка пінопласту</a></li>
+        <li class="services-list-item"><a href="#" class="services-list-link">Регіони</a></li>
+        <li class="services-list-item"><a href="#" class="services-list-link">Технологія</a></li>
+        <li class="services-list-item"><a href="#" class="services-list-link"><img src="/images/find.svg"
+              alt="find glass" class="find-glass"></a></li>
       </ul>
     </div>
   </header>
@@ -105,8 +104,82 @@
     </div>
   </section>
 
+  <main class="main">
+    <section class="services">
+      <div class="container">
+        <ul class="services-grid">
+          <li class="services-grid-1 services-text"><a href="#" class="services-link-grid">Фасадний декор</a></li>
+          <li class="services-grid-2 services-text"><a href="#" class="services-link-grid">Фрезерна порізка</a></li>
+          <li class="services-grid-3 services-text"><a href="#" class="services-link-grid">3D дизайн</a></li>
+          <li class="services-grid-4 services-text"><a href="#" class="services-link-grid">led профілі</a></li>
+          <li class="services-grid-5 services-text"><a href="#" class="services-link-grid">Порізка піноплсту</a></li>
+          <li class="services-grid-6 services-text"><a href="#" class="services-link-grid">Готові оформлення</a></li>
+        </ul>
+      </div>
+    </section>
 
+    <section class="portfolio">
+      <div class="container">
+        <div class="portfolio-header">
+          <h2 class="portfolio-title">портфоліо</h2>
+          <div class="navigate-button-position">
+            <input type="button" onclick="" value="" class="left-button button-style">
+            <input type="button" onclick="" value="" class="right-button button-style">
+          </div>
+        </div>
+        <ul class="portfolio-galery">
+          <li class="portfolio-item">
+            <div class="portfolio-link">
+              <img src="images/portfolio-1.svg" alt="photo portfolio class=" class="blackout">
+              <div class="portfolio-link-text">
+                <h3>Коломия<br>(Івано-франківська обл).</h3>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати</p>
+              </div>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <div class="portfolio-link">
+              <div class="arrow-button-position">
+                <input type="button" onclick="" value="" class="arrow-button">
+              </div>
+              <img src="images/portfolio-2.svg" alt="photo portfolio">
 
+              <div class="portfolio-link-text">
+                <h3>Фасадний декор для котеджа №1</h3>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати</p>
+              </div>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <div class="portfolio-link">
+              <img src="images/portfolio-3.svg" alt="photo portfolio">
+              <div class="portfolio-link-text">
+                <h3>Коломия<br>(Івано-франківська обл).</h3>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати</p>
+              </div>
+            </div>
+          </li>
+          <li class="portfolio-item">
+            <div class="portfolio-link">
+              <img src="images/portfolio-4.svg" alt="photo portfolio">
+              <div class="portfolio-link-text">
+                <h3>Фасадний декор для котеджа №1</h3>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="portfolio-button-position">
+          <input type="button" onclick="" value="портфоліо" class="main-button">
+        </div>
+        <!-- BUTTON 
+        <div class="arrow-button-position">
+          <input type="button" onclick="" value="" class="arrow-button">
+        </div>
+        -->
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
